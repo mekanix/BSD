@@ -9,3 +9,5 @@ cbsd.conf
 site.retry
 vars.mk
 freebsd
+objects/*
+!objects/.keep
