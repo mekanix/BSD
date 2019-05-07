@@ -1,5 +1,5 @@
-BASE_URL = https://github.com/mekanix/bhyve-base/releases/download/0.0.1
-IMAGE = basefreebsd12
+BASE_URL = https://home.meka.rs
+IMAGE = basefreebsd13
 TYPE = bhyve
 SERVICE = bsd
 REGGAE_PATH := /usr/local/share/reggae
