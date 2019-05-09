@@ -4,6 +4,7 @@ ansible/inventory/inventory
 ansible/roles/*
 ansible/site.yml
 !ansible/roles/.keep
+!ansible/roles/devel
 build/
 cbsd.conf
 site.retry
