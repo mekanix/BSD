@@ -1,3 +1,4 @@
 ---
 devel_packages:
   - name: ccache
+  - name: tmux

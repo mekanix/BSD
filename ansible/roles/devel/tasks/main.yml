@@ -4,3 +4,13 @@
   pkgng:
     name: "{{ item.name }}"
     state: present
+
+- name: configure make.conf
+  template:
+    src: make.conf.j2
+    dest: /etc/make.conf
+
+- name: configure ccache system wide
+  template:
+    src: csh.cshrc.j2
+    dest: /etc/csh.cshrc
