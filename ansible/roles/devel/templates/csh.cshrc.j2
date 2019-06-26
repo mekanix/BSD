@@ -1,2 +1,7 @@
 setenv PATH /usr/local/libexec/ccache:$PATH
 setenv CCACHE_PATH /usr/bin:/usr/local/bin
+if ($USER == "root") then
+	setenv CCACHE_DIR /var/cache/ccache
+else
+	setenv CCACHE_DIR ~/.ccache
+endif
