@@ -12,3 +12,4 @@ vars.mk
 freebsd
 objects/*
 !objects/.keep
+ccache
