@@ -1,0 +1,4 @@
+---
+- name: install packages
+  with_items: "{{ prepare_packages }}"
+  raw: pkg install -y python
