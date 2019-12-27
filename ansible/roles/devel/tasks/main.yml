@@ -5,17 +5,7 @@
     name: "{{ item.name }}"
     state: present
 
-- name: configure make.conf
-  template:
-    src: make.conf.j2
-    dest: /etc/make.conf
-
 - name: configure ccache system wide
   template:
     src: csh.cshrc.j2
     dest: /etc/csh.cshrc
-
-- name: configure ccache temp dir
-  template:
-    src: ccache.conf.j2
-    dest: /usr/local/etc/ccache.conf
